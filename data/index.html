@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32 TFT Photo Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ESP32 TFT Photo Display</h1>
+    <div id="upload-section">
+        <h2>Upload Image</h2>
+        <input type="file" id="file-input" accept="image/jpeg, image/png">
+        <button id="upload-button">Upload</button>
+    </div>
+    <div id="photo-display">
+        <h2>Uploaded Photos</h2>
+        <div id="photo-container"></div>
+    </div>
+    <div id="slideshow-controls">
+        <button id="prev-button">Previous</button>
+        <button id="next-button">Next</button>
+        <button id="take-photo-button">Photo Taking Mode</button>
+        <button id="special-pic-button">Special Pic</button>
+        <button id="back-button">Back</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
